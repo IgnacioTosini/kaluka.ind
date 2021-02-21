@@ -313,7 +313,7 @@ text-align: center;
     height: 620px;
     padding: 20px;
     overflow: hidden;
-    background-color: lavender;
+    background-color: rgba(230, 230, 250, 0.938);
     /* margin: auto; */
 }
 
