@@ -1,0 +1,648 @@
+body {
+    width: auto;
+    height: auto;
+    background: url(fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Cardo', serif;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+
+/*Zona Menu*/
+
+.menu {
+    position: absolute;
+    top: 25%;
+    background-color: rgba(18, 29, 29, 0.178);
+    font-size: larger;
+    width: 200px;
+    text-decoration: solid;
+    padding: 10px;
+}
+
+.inicio {
+    text-decoration: none;
+    transition: 1s;
+}
+
+.productos {
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav {
+    width: 200px;
+    height: 500px;
+    list-style: none;
+}
+
+.menuDesplegable {
+    float: left;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.desplegable {
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    transition: 0.5s;
+}
+
+.inicio:hover {
+    transition: 0.5s;
+    border-left: 5px solid rgba(95, 158, 160, 0.37);
+    width: 100%;
+}
+
+.productos:hover {
+    transition: 0.5s;
+    border-left: 5px solid rgba(95, 158, 160, 0.37);
+}
+
+.desplegable1 {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.desplegable1:hover {
+    border-left: 5px solid rgba(165, 42, 42, 0.226);
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.cajaContactos{
+    width: 230px;
+    height: 65px;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
+}
+.cajaContactos a{
+    font-size: 20px;
+    padding: 10px 7px 10px 10px;
+    background: #dcdde16c;
+    text-decoration: none;
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.cajaContactos a:hover{
+    background:rgb(34, 120, 178) ;
+}
+
+    .logoIg{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 110px;
+    bottom: 110px;
+    border-radius: 20px;
+}
+/*Termina Zona Menu*/
+
+
+/*Zona Primera Página*/
+
+h1 {
+    background-image: linear-gradient(120deg, #a1c4fd7a 0%, #c2e9fb85 100%);
+text-align: center;
+}
+
+.primeraCaja {
+    position: absolute;
+    background-color: #3232327a;
+    top: 205px;
+    left: 250px;
+    width: 430px;
+    height: 450px;
+}
+
+.nosotros {
+    position: absolute;
+    height: 340px;
+    width: 400px;
+    top: 90px;
+    left: 15px;
+    border-radius: 20px;
+}
+
+.segundaCaja {
+    position: absolute;
+    left: 700px;
+    top: 205px;
+    width: 430px;
+    height: 450px;
+    background-color: #3232327a;
+}
+
+.proceso {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 15px;
+    border-radius: 20px;
+}
+
+.tercerCaja {
+    position: absolute;
+    top: 670px;
+    left: 480px;
+    width: 430px;
+    height: 450px;
+    background-color: #3232327a;
+
+}
+
+.medioDePago {
+    position: absolute;
+    width: 400px;
+    height: 330px;
+    left: 15px;
+    border-radius: 20px;
+}
+
+
+/*Termina Zona Primera Página*/
+
+
+/*Zona Segunda Página*/
+
+.menuProductos {
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+}
+
+.menuProductos div a{
+    font-size: 25px;
+}
+.cajaBuzos {
+    position: absolute;
+    right: 400px;
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 300px;
+    height: 280px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.buzos {
+    position: absolute;
+    left: 120px;
+    width: 180px;
+    height: 250px;
+    text-decoration: none;
+}
+
+.fotoBuzos {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.cajaBuzos:hover {
+    background-color: rgb(33, 33, 56);
+}
+
+.cajaRemeras {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.192);
+    left: 250px;
+    width: 300px;
+    height: 280px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.remeras {
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    left: 120px;
+    text-decoration: none;
+}
+
+.fotoRemeras {
+    position: absolute;
+    width: 200px;
+    bottom: 40px;
+    left: 60px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.cajaRemeras:hover {
+    background-color: rgb(33, 33, 56);
+}
+
+
+/*.vestidos {
+    position: absolute;
+    top: 300px;
+    text-decoration: none;
+}*/
+
+.cajaPantalones {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.267);
+    left: 70px;
+    top: 350px;
+    width: 300px;
+    height: 280px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.pantalones {
+    position: absolute;
+    text-decoration: none;
+    left: 50px;
+    width: 200px;
+    height: 250px;
+}
+
+.fotoPantalones {
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    left: 55px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.cajaPantalones:hover {
+    background-color: rgb(33, 33, 56);
+}
+
+.menuProductos div a{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 2000;
+}
+/*Termina Zona Segunda Página*/
+
+
+/*Zona Lista De Productos*/
+
+.slide-contenedor {
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    margin: auto;
+    width: 750px;
+    height: 620px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: lavender;
+    /* margin: auto; */
+}
+
+
+/* .miSlider{
+    display: none;
+    transition: 2s;
+    max-height: 100vh;
+} */
+
+.miSlider img {
+    width: 100%;
+    max-height: 100vh;
+    height: inherit;
+    object-fit: cover;
+    vertical-align: top;
+    transition: 2s;
+}
+
+.direcciones {
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.direcciones a {
+    color: rgb(194, 60, 36);
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.direcciones a:hover {
+    background: rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+
+.barras {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.barra {
+    cursor: pointer;
+    height: 6px;
+    width: 25px;
+    margin: 0 2px;
+    background: #dcdde1;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.active {
+    background-color: #e74c3c;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.listaEntera {
+    position: absolute;
+    left: 225px;
+    width: 600px;
+    height: 600px;
+    top: 680px;
+}
+
+.buzosTitulo {
+    position: absolute;
+    left: 80px;
+}
+
+h2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 800px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #3232327a 0%, #3f3f3f9a 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+}
+
+.fotosBuzos {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.texto1 {
+    position: absolute;
+    width: 150px;
+    left: 80px;
+    top: 230px;
+}
+
+.adidas1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    top: 90px;
+    width: 320px;
+    height: 400px;
+    left: 90px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.adidas1:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 90px;
+    left: 560px;
+    z-index: 2;
+    transition: all 1s;
+}
+
+.adidas2:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 500px;
+    left: 90px;
+    z-index: 3;
+    transition: all 1s;
+}
+
+.adidas3:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas4 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 500px;
+    left: 560px;
+    z-index: 4;
+    transition: all 1s;
+}
+
+.adidas4:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas5 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 910px;
+    left: 90px;
+    z-index: 5;
+    transition: all 1s;
+}
+
+.adidas5:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas6 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 910px;
+    left: 560px;
+    z-index: 6;
+    transition: all 1s;
+}
+
+.adidas6:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas7 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 1320px;
+    left: 90px;
+    z-index: 7;
+    transition: all 1s;
+}
+
+.adidas7:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas8 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 1320px;
+    left: 560px;
+    transition: all 1s;
+}
+
+.adidas8:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas9 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 1730px;
+    left: 90px;
+    transition: all 1s;
+}
+
+.adidas9:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas10 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 1730px;
+    left: 560px;
+    transition: all 1s;
+}
+
+.adidas10:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas11 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 2140px;
+    left: 90px;
+    transition: all 1s;
+}
+
+.adidas11:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas12 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 2140px;
+    left: 560px;
+    transition: all 1s;
+}
+
+.adidas12:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas13 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 2550px;
+    left: 90px;
+    transition: all 1s;
+}
+
+.adidas13:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+
+/*Termina Zona Lista De Productos*/
