@@ -83,6 +83,10 @@ nav {
     transition: 0.5s;
 }
 
+.desplegable1:visited{
+    color: gold;
+}
+
 .desplegable1:hover {
     border-left: 5px solid rgba(165, 42, 42, 0.226);
 }
@@ -221,6 +225,10 @@ text-align: center;
     text-decoration: none;
 }
 
+.buzos:visited{
+    color: gold;
+}
+
 .fotoBuzos {
     position: absolute;
     top: 40px;
@@ -250,6 +258,10 @@ text-align: center;
     height: 250px;
     left: 120px;
     text-decoration: none;
+}
+
+.remeras:visited{
+    color: gold;
 }
 
 .fotoRemeras {
@@ -289,6 +301,10 @@ text-align: center;
     left: 50px;
     width: 200px;
     height: 250px;
+}
+
+.pantalones:visited{
+    color: gold;
 }
 
 .fotoPantalones {
