@@ -97,7 +97,7 @@ nav ul li:hover ul {
 
 .cajaContactos{
     width: 230px;
-    height: 65px;
+    height: 85px;
     text-decoration: none;
     background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
 }
@@ -676,7 +676,7 @@ h2 {
 
 @media only screen and (max-width: 700px) {
     .logoIg{
-        position: absolute;
+        position: sticky;
         top: 87%;
     }
 }
