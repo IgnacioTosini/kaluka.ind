@@ -644,5 +644,11 @@ h2 {
     transition: 2s;
 }
 
-
 /*Termina Zona Lista De Productos*/
+
+@media only screen and (max-width: 700px) {
+    .logoIg{
+        position: absolute;
+        top: 87%;
+    }
+}
