@@ -34,9 +34,17 @@ body {
     transition: 1s;
 }
 
+.inicio:visited{
+    color: gold;
+}
+
 .productos {
     text-decoration: none;
     transition: 1s;
+}
+
+.productos:visited{
+    color: gold;
 }
 
 nav {
@@ -102,7 +110,11 @@ nav ul li:hover ul {
     background:rgb(34, 120, 178) ;
 }
 
-    .logoIg{
+.cajaContactos a:visited{
+    color: gold;
+}
+
+.logoIg{
     position: absolute;
     width: 30px;
     height: 30px;
