@@ -732,6 +732,38 @@ h2 {
     transition: 2s;
 }
 
+.adidas16 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 2960px;
+    left: 560px;
+    transition: all 1s;
+}
+
+.adidas16:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
+.adidas17 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 320px;
+    height: 400px;
+    top: 3370px;
+    left: 90px;
+    transition: all 1s;
+}
+
+.adidas17:hover {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    transition: 2s;
+}
+
 /*Termina Zona Lista De Productos*/
 
 @media only screen and (max-width: 700px) {
