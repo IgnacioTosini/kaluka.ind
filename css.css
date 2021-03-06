@@ -769,7 +769,7 @@ h2 {
 @media only screen and (max-width: 992px) {
     .logoIg{
         position: absolute;
-        left: 6.875rem;
+        left: 7.875rem;
         bottom: 14.1rem;
 }
 
@@ -830,7 +830,7 @@ h2 {
 @media only screen and (max-width: 768px) {
     .logoIg{
         position: absolute;
-        left: 7.875rem;
+        left: 8.875rem;
         bottom: 13.8rem;
 }
 
@@ -895,7 +895,7 @@ h2 {
 
 .logoIg{
     position: absolute;
-    left: 6.875rem;
+    left: 7.875rem;
     top: 34.375rem;
 }
 
