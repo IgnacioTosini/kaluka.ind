@@ -766,9 +766,188 @@ h2 {
 
 /*Termina Zona Lista De Productos*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 992px) {
     .logoIg{
-        position: sticky;
-        top: 87%;
-    }
+        position: absolute;
+        left: 6.875rem;
+        bottom: 14.1rem;
+}
+
+.primeraCaja {
+    position: absolute;
+    background-color: #3232327a;
+    top: 12.8125em;
+    left: 15.625em;
+    width: 24.875em;
+    height: 25.125em;
+}
+
+.nosotros {
+    position: absolute;
+    height: 18.25em;
+    width: 23em;
+    top: 5.625em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+.segundaCaja {
+    position: absolute;
+    left: 43.75em;
+    top: 12.8125em;
+    width: 24.875em;
+    height: 25.125em;
+    background-color: #3232327a;
+}
+
+.proceso {
+    position: absolute;
+    height: 18.25em;
+    width: 23em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+.tercerCaja {
+    position: absolute;
+    top: 41.875em;
+    left: 30em;
+    width: 24.875em;
+    height: 25.125em;
+    background-color: #3232327a;
+
+}
+
+.medioDePago {
+    position: absolute;
+    height: 17.25em;
+    width: 23em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logoIg{
+        position: absolute;
+        left: 6.875rem;
+        bottom: 13.8rem;
+}
+
+.primeraCaja {
+    position: absolute;
+    background-color: #3232327a;
+    top: 12.8125em;
+    left: 15.625em;
+    width: 22.875em;
+    height: 23.125em;
+}
+
+.nosotros {
+    position: absolute;
+    height: 16.25em;
+    width: 21em;
+    top: 5.625em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+.segundaCaja {
+    position: absolute;
+    left: 40.75em;
+    top: 12.8125em;
+    width: 22.875em;
+    height: 23.125em;
+    background-color: #3232327a;
+}
+
+.proceso {
+    position: absolute;
+    height: 16.25em;
+    width: 21em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+.tercerCaja {
+    position: absolute;
+    top: 37.875em;
+    left: 27em;
+    width: 22.875em;
+    height: 23.125em;
+    background-color: #3232327a;
+
+}
+
+.medioDePago {
+    position: absolute;
+    height: 15.25em;
+    width: 21em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+}
+
+@media only screen and (max-width: 576px){
+.menu{
+    top: 12.5rem;
+}
+
+.logoIg{
+    position: absolute;
+    left: 6.875rem;
+    top: 34.375rem;
+}
+
+.primeraCaja {
+    position: absolute;
+    background-color: #3232327a;
+    top: 1.8125em;
+    left: 15.625em;
+    width: 20.875em;
+    height: 21.125em;
+}
+
+.nosotros {
+    position: absolute;
+    height: 14.25em;
+    width: 19em;
+    top: 5.625em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+.segundaCaja {
+    position: absolute;
+    left: 15.625em;
+    top: 23.8125em;
+    width: 20.875em;
+    height: 21.125em;
+    background-color: #3232327a;
+}
+
+.proceso {
+    position: absolute;
+    height: 15.25em;
+    width: 19em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
+
+.tercerCaja {
+    position: absolute;
+    top: 45.875em;
+    left: 15.625em;
+    width: 20.875em;
+    height: 21.125em;
+    background-color: #3232327a;
+}
+
+.medioDePago {
+    position: absolute;
+    height: 13.25em;
+    width: 19em;
+    left: 0.9375em;
+    border-radius: 20px;
+}
 }
