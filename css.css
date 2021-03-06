@@ -889,6 +889,8 @@ h2 {
 }
 
 @media only screen and (max-width: 576px){
+/*Zona Menu*/
+
 .menu{
     top: 12.5rem;
 }
@@ -898,6 +900,11 @@ h2 {
     left: 7.875rem;
     top: 34.375rem;
 }
+/*Termina Zona Menu*/
+
+
+/*Zona Primera Página*/
+
 
 .primeraCaja {
     position: absolute;
@@ -950,4 +957,99 @@ h2 {
     left: 0.9375em;
     border-radius: 20px;
 }
+/*Termina Zona Primera Página*/
+
+
+/*Zona Segunda Página*/
+
+.menuProductos {
+    position: absolute;
+    top: 4.25em;
+    left: 2em;
+    width: 18.73em;
+    height: 25em;
+    padding: 50px;
 }
+
+.cajaBuzos {
+    position: absolute;
+    left: 16em;
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 12.75em;
+    height: 11.5em;
+    padding: 5px;
+    transition: 1s;
+}
+
+.fotoBuzos {
+    position: absolute;
+    top: 2.5em;
+    left: 2.55em;
+    width: 8.5em;
+    height: 8.5em;
+    border-radius: 20px;
+}
+
+
+.cajaRemeras {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.192);
+    top: 17em;
+    left: 15.625em;
+    width: 12.75em;
+    height: 11.5em;
+    padding: 5px;
+    transition: 1s;
+}
+
+.fotoRemeras {
+    position: absolute;
+    bottom: 1em;
+    left: 2.55em;
+    width: 8.5em;
+    height: 8.5em;
+    border-radius: 20px;
+}
+
+
+.cajaConjunto{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.267);
+    left: 15.625em;
+    top: 31em;
+    width: 12.75em;
+    height: 11.5em;
+    padding: 5px;
+    transition: 1s;
+}
+
+.fotoConjunto{
+    position: absolute;
+    top: 3.125em;
+    left: 2.55em;
+    width: 8.5em;
+    height: 8.5em;
+    border-radius: 20px;
+}
+
+.cajaPantalones {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.267);
+    left: 16em;
+    top: 45em;
+    width: 12.75em;
+    height: 11.5em;
+    padding: 5px;
+    transition: 1s;
+}
+
+.fotoPantalones {
+    position: absolute;
+    top: 3.125em;
+    left: 2.55em;
+    width: 8.5em;
+    height: 8.5em;
+    border-radius: 20px;
+}
+
+/*Termina Zona Segunda Página*/
