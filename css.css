@@ -852,6 +852,13 @@ h2 {
         left: 6.875rem;
         bottom: 13.8rem;
 }
+    
+.cajaContactos {
+    width: 12.375em;
+    height: 85px;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
+}
 
 .primeraCaja {
     position: absolute;
@@ -924,6 +931,13 @@ h2 {
     position: absolute;
     left: 7.875rem;
     top: 34.375rem;
+}
+
+.cajaContactos {
+    width: 12.375em;
+    height: 85px;
+    text-decoration: none;
+    background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
 }
 /*Termina Zona Menu*/
 
