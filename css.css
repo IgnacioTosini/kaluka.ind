@@ -949,7 +949,7 @@ h2 {
     position: absolute;
     background-color: #3232327a;
     top: 1.8125em;
-    left: 15.625em;
+    left: 13.625em;
     width: 20.875em;
     height: 21.125em;
 }
@@ -965,7 +965,7 @@ h2 {
 
 .segundaCaja {
     position: absolute;
-    left: 15.625em;
+    left: 13.625em;
     top: 23.8125em;
     width: 20.875em;
     height: 21.125em;
@@ -983,7 +983,7 @@ h2 {
 .tercerCaja {
     position: absolute;
     top: 45.875em;
-    left: 15.625em;
+    left: 13.625em;
     width: 20.875em;
     height: 21.125em;
     background-color: #3232327a;
