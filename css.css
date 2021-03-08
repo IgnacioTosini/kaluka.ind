@@ -767,9 +767,19 @@ h2 {
 /*Termina Zona Lista De Productos*/
 
 @media only screen and (max-width: 992px) {
+    .menu{
+        top: 12.5rem;
+        position: absolute;
+        background-color: rgba(18, 29, 29, 0.178);
+        font-size: larger;
+        width: 9.5em;
+        text-decoration: solid;
+        padding: 10px;
+    }
+
     .logoIg{
         position: absolute;
-        left: 7.875rem;
+        left: 6.875rem;
         bottom: 14.1rem;
 }
 
@@ -828,9 +838,18 @@ h2 {
 
 
 @media only screen and (max-width: 768px) {
+    .menu{
+        top: 12.5rem;
+        position: absolute;
+        background-color: rgba(18, 29, 29, 0.178);
+        font-size: larger;
+        width: 9.5em;
+        text-decoration: solid;
+        padding: 10px;
+}
     .logoIg{
         position: absolute;
-        left: 8.875rem;
+        left: 6.875rem;
         bottom: 13.8rem;
 }
 
@@ -889,8 +908,6 @@ h2 {
 }
 
 @media only screen and (max-width: 576px){
-/*Zona Menu*/
-
 /*Zona Menu*/
 
 .menu{
