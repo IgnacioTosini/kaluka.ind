@@ -891,8 +891,16 @@ h2 {
 @media only screen and (max-width: 576px){
 /*Zona Menu*/
 
+/*Zona Menu*/
+
 .menu{
     top: 12.5rem;
+    position: absolute;
+    background-color: rgba(18, 29, 29, 0.178);
+    font-size: larger;
+    width: 10.5em;
+    text-decoration: solid;
+    padding: 10px;
 }
 
 .logoIg{
@@ -965,15 +973,15 @@ h2 {
 .menuProductos {
     position: absolute;
     top: 4.25em;
-    left: 2em;
-    width: 18.73em;
+    left: 14em;
+    width: 13.73em;
     height: 25em;
     padding: 50px;
 }
 
 .cajaBuzos {
     position: absolute;
-    left: 16em;
+    left: 5em;
     background-color: rgba(0, 0, 0, 0.103);
     width: 12.75em;
     height: 11.5em;
@@ -995,7 +1003,7 @@ h2 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.192);
     top: 17em;
-    left: 15.625em;
+    left: 5em;
     width: 12.75em;
     height: 11.5em;
     padding: 5px;
@@ -1015,7 +1023,7 @@ h2 {
 .cajaConjunto{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.267);
-    left: 15.625em;
+    left: 5em;
     top: 31em;
     width: 12.75em;
     height: 11.5em;
@@ -1035,7 +1043,7 @@ h2 {
 .cajaPantalones {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.267);
-    left: 16em;
+    left: 5em;
     top: 45em;
     width: 12.75em;
     height: 11.5em;
@@ -1053,12 +1061,13 @@ h2 {
 }
 
 /*Termina Zona Segunda Página*/
-    
+
 /*Zona Lista De Productos*/
+
 .slide-contenedor {
     position: absolute;
     top: 0.3125em;
-    left: 19em;
+    left: 16em;
     margin: auto;
     width: 29.875em;
     height: 40.3125em;
@@ -1089,7 +1098,7 @@ h2 {
 
 .listaEntera {
     position: absolute;
-    left: 14.0625em;
+    left: 10.0625em;
     width: 37.5em;
     height: 37.5em;
     top: 42.5em;
