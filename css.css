@@ -783,6 +783,15 @@ h2 {
     bottom: 14.1rem;
 }
 
+.menuProductos {
+    position: absolute;
+    top: 4.25em;
+    left: 7.5em;
+    width: 10.73em;
+    height: 25em;
+    padding: 50px;
+}
+    
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
@@ -954,7 +963,7 @@ h2 {
     position: absolute;
     top: 4.25em;
     left: 7.5em;
-    width: 13.73em;
+    width: 10.73em;
     height: 25em;
     padding: 50px;
 }
@@ -1060,7 +1069,7 @@ h2 {
     position: absolute;
     top: 4.25em;
     left: 7.5em;
-    width: 13.73em;
+    width: 10.73em;
     height: 25em;
     padding: 50px;
 }
