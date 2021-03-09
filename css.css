@@ -767,20 +767,20 @@ h2 {
 /*Termina Zona Lista De Productos*/
 
 @media only screen and (max-width: 992px) {
-    .menu{
-        top: 12.5rem;
-        position: absolute;
-        background-color: rgba(18, 29, 29, 0.178);
-        font-size: larger;
-        width: 9.5em;
-        text-decoration: solid;
-        padding: 10px;
-    }
+.menu{
+    top: 12.5rem;
+    position: absolute;
+    background-color: rgba(18, 29, 29, 0.178);
+    font-size: larger;
+    width: 9.5em;
+    text-decoration: solid;
+    padding: 10px;
+}
 
-    .logoIg{
-        position: absolute;
-        left: 6.875rem;
-        bottom: 14.1rem;
+.logoIg{
+    position: absolute;
+    left: 6.875rem;
+    bottom: 14.1rem;
 }
 
 .primeraCaja {
@@ -836,29 +836,62 @@ h2 {
     border-radius: 20px;
 }
 
+.slide-contenedor {
+    position: absolute;
+    top: 0.3125em;
+    left: 12.5em;
+    margin: auto;
+    width: 26.875em;
+    height: 33.3125em;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgba(230, 230, 250, 0.938);
+}
+
+.buzosTitulo {
+    position: absolute;
+    left: 4em;
+    width: 18.7em;
+}
+
+
+.listaEntera {
+    position: absolute;
+    left: 6.5em;
+    width: 33.5em;
+    height: 37.5em;
+    top: 35.5em;
+}
 
 @media only screen and (max-width: 768px) {
-    .menu{
-        top: 12.5rem;
-        position: absolute;
-        background-color: rgba(18, 29, 29, 0.178);
-        font-size: larger;
-        width: 9.5em;
-        text-decoration: solid;
-        padding: 10px;
+
+/*Zona Menu*/
+.menu{
+    top: 12.5rem;
+    position: absolute;
+    background-color: rgba(18, 29, 29, 0.178);
+    font-size: larger;
+    width: 9em;
+    text-decoration: solid;
+    padding: 10px;
+    padding-left: 0;
 }
-    .logoIg{
-        position: absolute;
-        left: 6.875rem;
-        bottom: 13.8rem;
+
+.logoIg{
+    position: absolute;
+    left: 6.875rem;
+    bottom: 13.8rem;
 }
-    
+
 .cajaContactos {
-    width: 12.375em;
+    width: 11em;
     height: 85px;
     text-decoration: none;
     background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
 }
+/*Termina Zona Menu*/
+
+/*Zona Primera Página*/
 
 .primeraCaja {
     position: absolute;
@@ -912,6 +945,28 @@ h2 {
     left: 0.9375em;
     border-radius: 20px;
 }
+
+/*Termina Zona Primera Página*/
+
+/*Zona Segunda Página*/
+
+.menuProductos {
+    position: absolute;
+    top: 4.25em;
+    left: 7.5em;
+    width: 13.73em;
+    height: 25em;
+    padding: 50px;
+}
+
+/*Termina Zona Segunda Página*/
+
+.buzosTitulo {
+    position: absolute;
+    left: 4em;
+    width: 18.7em;
+}
+
 }
 
 @media only screen and (max-width: 576px){
@@ -922,9 +977,10 @@ h2 {
     position: absolute;
     background-color: rgba(18, 29, 29, 0.178);
     font-size: larger;
-    width: 9.5em;
+    width: 9em;
     text-decoration: solid;
     padding: 10px;
+    padding-left: 0;
 }
 
 .logoIg{
@@ -934,7 +990,7 @@ h2 {
 }
 
 .cajaContactos {
-    width: 12.375em;
+    width: 11em;
     height: 85px;
     text-decoration: none;
     background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
@@ -943,7 +999,6 @@ h2 {
 
 
 /*Zona Primera Página*/
-
 
 .primeraCaja {
     position: absolute;
@@ -1004,7 +1059,7 @@ h2 {
 .menuProductos {
     position: absolute;
     top: 4.25em;
-    left: 9em;
+    left: 7.5em;
     width: 13.73em;
     height: 25em;
     padding: 50px;
@@ -1098,10 +1153,10 @@ h2 {
 .slide-contenedor {
     position: absolute;
     top: 0.3125em;
-    left: 14em;
+    left: 12.5em;
     margin: auto;
-    width: 29.875em;
-    height: 40.3125em;
+    width: 26.875em;
+    height: 33.3125em;
     padding: 20px;
     overflow: hidden;
     background-color: rgba(230, 230, 250, 0.938);
@@ -1129,15 +1184,16 @@ h2 {
 
 .listaEntera {
     position: absolute;
-    left: 8.0625em;
-    width: 37.5em;
+    left: 6.5em;
+    width: 33.5em;
     height: 37.5em;
-    top: 42.5em;
+    top: 35.5em;
 }
 
 .buzosTitulo {
     position: absolute;
     left: 4em;
+    width: 18.7em;
 }
 
 h2 {
@@ -1180,7 +1236,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 5.625em;
-    left: 23em;
+    left: 21em;
     z-index: 2;
     transition: all 1s;
 }
@@ -1202,7 +1258,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 31.25em;
-    left: 23em;
+    left: 21em;
     z-index: 4;
     transition: all 1s;
 }
@@ -1224,7 +1280,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 56.875em;
-    left: 23em;
+    left: 21em;
     z-index: 6;
     transition: all 1s;
 }
@@ -1246,7 +1302,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 82.5em;
-    left: 23em;
+    left: 21em;
     transition: all 1s;
 }
 
@@ -1266,7 +1322,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 108.125em;
-    left: 23em;
+    left: 21em;
     transition: all 1s;
 }
 
@@ -1286,7 +1342,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 133.75em;
-    left: 23em;
+    left: 21em;
     transition: all 1s;
 }
 
@@ -1306,7 +1362,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 159.375em;
-    left: 23em;
+    left: 21em;
     transition: all 1s;
 }
 
@@ -1326,7 +1382,7 @@ h2 {
     width: 15em;
     height: 22em;
     top: 185em;
-    left: 23em;
+    left: 21em;
     transition: all 1s;
 }
 
