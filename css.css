@@ -7,11 +7,12 @@ body {
     background-size: cover;
     color: white;
     font-family: 'Cardo', serif;
+    font-size: 16px;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 10em;
+    height: 10em;
     border-radius: 20px;
     position: absolute;
 }
@@ -24,7 +25,7 @@ body {
     top: 25%;
     background-color: rgba(18, 29, 29, 0.178);
     font-size: larger;
-    width: 200px;
+    width: 12.5em;
     text-decoration: solid;
     padding: 10px;
 }
@@ -33,11 +34,9 @@ body {
     text-decoration: none;
     transition: 1s;
 }
-
 .inicio:visited{
     color: gold;
 }
-
 .productos {
     text-decoration: none;
     transition: 1s;
@@ -48,8 +47,8 @@ body {
 }
 
 nav {
-    width: 200px;
-    height: 500px;
+    width: 12.5em;
+    height: 31.25em;
     list-style: none;
 }
 
@@ -96,7 +95,7 @@ nav ul li:hover ul {
 }
 
 .cajaContactos{
-    width: 230px;
+    width: 14.375em;
     height: 85px;
     text-decoration: none;
     background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
@@ -110,19 +109,18 @@ nav ul li:hover ul {
     border-radius: 3px;
 }
 
+.cajaContactos a:visited{
+    color: gold;
+}
 .cajaContactos a:hover{
     background:rgb(34, 120, 178) ;
 }
 
-.cajaContactos a:visited{
-    color: gold;
-}
-
 .logoIg{
     position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 110px;
+    width: 1.875em;
+    height: 1.875em;
+    left: 6.875em;
     bottom: 110px;
     border-radius: 20px;
 }
@@ -143,53 +141,53 @@ text-align: center;
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
-    top: 205px;
-    left: 250px;
-    width: 430px;
-    height: 450px;
+    top: 12.8125em;
+    left: 15.625em;
+    width: 26.875em;
+    height: 28.125em;
 }
 
 .nosotros {
     position: absolute;
-    height: 340px;
-    width: 400px;
-    top: 90px;
-    left: 15px;
+    height: 21.25em;
+    width: 25em;
+    top: 5.625em;
+    left: 0.9375em;
     border-radius: 20px;
 }
 
 .segundaCaja {
     position: absolute;
-    left: 700px;
-    top: 205px;
-    width: 430px;
-    height: 450px;
+    left: 43.75em;
+    top: 12.8125em;
+    width: 26.875em;
+    height: 28.125em;
     background-color: #3232327a;
 }
 
 .proceso {
     position: absolute;
-    width: 400px;
-    height: 350px;
-    left: 15px;
+    width: 25em;
+    height: 21.875em;
+    left: 0.9375em;
     border-radius: 20px;
 }
 
 .tercerCaja {
     position: absolute;
-    top: 670px;
-    left: 480px;
-    width: 430px;
-    height: 450px;
+    top: 41.875em;
+    left: 30em;
+    width: 26.875em;
+    height: 28.125em;
     background-color: #3232327a;
 
 }
 
 .medioDePago {
     position: absolute;
-    width: 400px;
-    height: 330px;
-    left: 15px;
+    width: 25em;
+    height: 20.625em;
+    left: 0.9375em;
     border-radius: 20px;
 }
 
@@ -201,10 +199,10 @@ text-align: center;
 
 .menuProductos {
     position: absolute;
-    top: 180px;
-    left: 400px;
-    width: 500px;
-    height: 400px;
+    top: 3.25em;
+    left: 25em;
+    width: 31.25em;
+    height: 25em;
     padding: 50px;
 }
 
@@ -213,19 +211,19 @@ text-align: center;
 }
 .cajaBuzos {
     position: absolute;
-    right: 400px;
+    right: 25em;
     background-color: rgba(0, 0, 0, 0.103);
-    width: 300px;
-    height: 280px;
+    width: 18.75em;
+    height: 17.5em;
     padding: 5px;
     transition: 1s;
 }
 
 .buzos {
     position: absolute;
-    left: 120px;
-    width: 180px;
-    height: 250px;
+    left: 7.5em;
+    width: 11.25em;
+    height: 15.625em;
     text-decoration: none;
 }
 
@@ -235,10 +233,10 @@ text-align: center;
 
 .fotoBuzos {
     position: absolute;
-    top: 40px;
-    left: 60px;
-    width: 200px;
-    height: 200px;
+    top: 2.5em;
+    left: 3.75em;
+    width: 12.5em;
+    height: 12.5em;
     border-radius: 20px;
 }
 
@@ -249,18 +247,18 @@ text-align: center;
 .cajaRemeras {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.192);
-    left: 250px;
-    width: 300px;
-    height: 280px;
+    left: 15.625em;
+    width: 18.75em;
+    height: 17.5em;
     padding: 5px;
     transition: 1s;
 }
 
 .remeras {
     position: absolute;
-    width: 180px;
-    height: 250px;
-    left: 120px;
+    width: 11.25em;
+    height: 15.625em;
+    left: 7.5rem;
     text-decoration: none;
 }
 
@@ -270,10 +268,10 @@ text-align: center;
 
 .fotoRemeras {
     position: absolute;
-    width: 200px;
-    bottom: 40px;
-    left: 60px;
-    height: 200px;
+    width: 12.5em;
+    bottom: 2.5em;
+    left: 3.75em;
+    height: 12.5em;
     border-radius: 20px;
 }
 
@@ -284,10 +282,10 @@ text-align: center;
 .cajaConjunto{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.267);
-    left: 250px;
-    top: 350px;
-    width: 300px;
-    height: 280px;
+    left: 15.625em;
+    top: 21.875em;
+    width: 18.75em;
+    height: 17.5em;
     padding: 5px;
     transition: 1s;
 }
@@ -297,32 +295,31 @@ text-align: center;
 }
 .conjuntos {
     position: absolute;
-    width: 180px;
-    height: 250px;
-    left: 120px;
+    width: 11.25em;
+    height: 15.625em;
+    left: 7.5em;
     text-decoration: none;
 }
 
 .conjuntos:visited{
     color: gold;
 }
-
 .fotoConjunto{
     position: absolute;
-    width: 200px;
-    top: 50px;
-    left: 55px;
-    height: 200px;
+    width: 12.5em;
+    top: 3.125em;
+    left: 3.4375em;
+    height: 12.5em;
     border-radius: 20px;
 }
 
 .cajaPantalones {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.267);
-    right: 400px;
-    top: 350px;
-    width: 300px;
-    height: 280px;
+    right: 25em;
+    top: 21.875em;
+    width: 18.75em;
+    height: 17.5em;
     padding: 5px;
     transition: 1s;
 }
@@ -330,9 +327,9 @@ text-align: center;
 .pantalones {
     position: absolute;
     text-decoration: none;
-    left: 50px;
-    width: 200px;
-    height: 250px;
+    left: 3.125em;
+    width: 12.5em;
+    height: 15.625em;
 }
 
 .pantalones:visited{
@@ -341,10 +338,10 @@ text-align: center;
 
 .fotoPantalones {
     position: absolute;
-    width: 200px;
-    top: 50px;
-    left: 55px;
-    height: 200px;
+    width: 12.5em;
+    top: 3.125em;
+    left: 3.4375em;
+    height: 12.5em;
     border-radius: 20px;
 }
 
@@ -366,23 +363,15 @@ text-align: center;
 
 .slide-contenedor {
     position: absolute;
-    top: 5px;
-    left: 320px;
+    top: 0.3125em;
+    left: 20em;
     margin: auto;
-    width: 750px;
-    height: 645px;
+    width: 46.875em;
+    height: 40.3125em;
     padding: 20px;
     overflow: hidden;
     background-color: rgba(230, 230, 250, 0.938);
-    /* margin: auto; */
 }
-
-
-/* .miSlider{
-    display: none;
-    transition: 2s;
-    max-height: 100vh;
-} */
 
 .miSlider img {
     width: 100%;
@@ -427,8 +416,8 @@ text-align: center;
 
 .barra {
     cursor: pointer;
-    height: 6px;
-    width: 25px;
+    height: 0.375em;
+    width: 1.5625em;
     margin: 0 2px;
     background: #dcdde1;
     display: inline-block;
@@ -455,21 +444,21 @@ text-align: center;
 
 .listaEntera {
     position: absolute;
-    left: 225px;
-    width: 600px;
-    height: 600px;
-    top: 680px;
+    left: 14.0625em;
+    width: 37.5em;
+    height: 37.5em;
+    top: 42.5em;
 }
 
 .buzosTitulo {
     position: absolute;
-    left: 80px;
+    left: 5em;
 }
 
 h2 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.212);
-    width: 800px;
+    width: 31em;
     padding: 10px;
     background: linear-gradient(to bottom, #3232327a 0%, #3f3f3f9a 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
     background-blend-mode: multiply;
@@ -477,25 +466,25 @@ h2 {
 
 .fotosBuzos {
     position: fixed;
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     border-radius: 5px;
 }
 
 .texto1 {
     position: absolute;
-    width: 150px;
-    left: 80px;
-    top: 230px;
+    width: 9.375em;
+    left: 5em;
+    top: 14.375em;
 }
 
 .adidas1 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    top: 90px;
-    width: 320px;
-    height: 400px;
-    left: 90px;
+    top: 5.625em;
+    width: 20em;
+    height: 25em;
+    left: 5.625em;
     z-index: 1;
     transition: all 1s;
 }
@@ -509,10 +498,10 @@ h2 {
 .adidas2 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 90px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 5.625em;
+    left: 35em;
     z-index: 2;
     transition: all 1s;
 }
@@ -526,10 +515,10 @@ h2 {
 .adidas3 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 500px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 31.25em;
+    left: 5.625em;
     z-index: 3;
     transition: all 1s;
 }
@@ -543,10 +532,10 @@ h2 {
 .adidas4 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 500px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 31.25em;
+    left: 35em;
     z-index: 4;
     transition: all 1s;
 }
@@ -560,10 +549,10 @@ h2 {
 .adidas5 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 910px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 56.875em;
+    left: 5.625em;
     z-index: 5;
     transition: all 1s;
 }
@@ -577,10 +566,10 @@ h2 {
 .adidas6 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 910px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 56.875em;
+    left: 35em;
     z-index: 6;
     transition: all 1s;
 }
@@ -594,10 +583,10 @@ h2 {
 .adidas7 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 1320px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 82.5em;
+    left: 5.625em;
     z-index: 7;
     transition: all 1s;
 }
@@ -611,10 +600,10 @@ h2 {
 .adidas8 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 1320px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 82.5em;
+    left: 35em;
     transition: all 1s;
 }
 
@@ -627,10 +616,10 @@ h2 {
 .adidas9 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 1730px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 108.125em;
+    left: 5.625em;
     transition: all 1s;
 }
 
@@ -643,10 +632,10 @@ h2 {
 .adidas10 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 1730px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 108.125em;
+    left: 35em;
     transition: all 1s;
 }
 
@@ -659,10 +648,10 @@ h2 {
 .adidas11 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 2140px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 133.75em;
+    left: 5.625em;
     transition: all 1s;
 }
 
@@ -675,10 +664,10 @@ h2 {
 .adidas12 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 2140px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 133.75em;
+    left: 35em;
     transition: all 1s;
 }
 
@@ -691,10 +680,10 @@ h2 {
 .adidas13 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 2550px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 159.375em;
+    left: 5.625em;
     transition: all 1s;
 }
 
@@ -707,10 +696,10 @@ h2 {
 .adidas14 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 2550px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 159.375em;
+    left: 35em;
     transition: all 1s;
 }
 
@@ -723,10 +712,10 @@ h2 {
 .adidas15 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 2960px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 185em;
+    left: 5.625em;
     transition: all 1s;
 }
 
@@ -739,10 +728,10 @@ h2 {
 .adidas16 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 2960px;
-    left: 560px;
+    width: 20em;
+    height: 25em;
+    top: 185em;
+    left: 35em;
     transition: all 1s;
 }
 
@@ -755,10 +744,10 @@ h2 {
 .adidas17 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
-    width: 320px;
-    height: 400px;
-    top: 3370px;
-    left: 90px;
+    width: 20em;
+    height: 25em;
+    top: 210.625em;
+    left: 5.625em;
     transition: all 1s;
 }
 
@@ -767,6 +756,7 @@ h2 {
     background-blend-mode: multiply;
     transition: 2s;
 }
+
 .adidas18 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.24);
