@@ -848,6 +848,11 @@ h2 {
     bottom: 14.1rem;
 }
 
+.todasLasCajasPag1 {
+    position: absolute;
+    top: 0em;
+}
+
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
@@ -965,6 +970,11 @@ h2 {
 
 /*Zona Primera Página*/
 
+.todasLasCajasPag1 {
+    position: absolute;
+    top: 0em;
+}
+    
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
@@ -1078,7 +1088,12 @@ h2 {
 
 
 /*Zona Primera Página*/
+.todasLasCajasPag1 {
+    position: absolute;
+    top: 0em;
+}
 
+    
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
