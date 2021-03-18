@@ -33,6 +33,7 @@ body {
 .inicio {
     text-decoration: none;
     transition: 1s;
+    color: gold;
 }
 .inicio:visited{
     color: gold;
@@ -40,6 +41,7 @@ body {
 .productos {
     text-decoration: none;
     transition: 1s;
+    color: gold;
 }
 
 .productos:visited{
@@ -80,6 +82,7 @@ nav {
     list-style: none;
     text-decoration: none;
     transition: 0.5s;
+    color: gold;
 }
 
 .desplegable1:visited{
@@ -107,6 +110,7 @@ nav ul li:hover ul {
     text-decoration: none;
     transition: 1s;
     border-radius: 3px;
+    color: gold;
 }
 
 .cajaContactos a:visited{
@@ -225,6 +229,7 @@ text-align: center;
     width: 11.25em;
     height: 15.625em;
     text-decoration: none;
+    color: gold;
 }
 
 .buzos:visited{
@@ -260,6 +265,7 @@ text-align: center;
     height: 15.625em;
     left: 7.5rem;
     text-decoration: none;
+    color: gold;
 }
 
 .remeras:visited{
@@ -293,17 +299,20 @@ text-align: center;
 .cajaConjunto:hover{
     background-color: rgb(33, 33, 56);
 }
+
 .conjuntos {
     position: absolute;
     width: 11.25em;
     height: 15.625em;
     left: 7.5em;
     text-decoration: none;
+    color: gold;
 }
 
 .conjuntos:visited{
     color: gold;
 }
+
 .fotoConjunto{
     position: absolute;
     width: 12.5em;
@@ -330,6 +339,7 @@ text-align: center;
     left: 3.125em;
     width: 12.5em;
     height: 15.625em;
+    color: gold;
 }
 
 .pantalones:visited{
