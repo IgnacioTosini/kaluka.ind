@@ -98,11 +98,13 @@ nav ul li:hover ul {
 }
 
 .cajaContactos{
-    width: 14.375em;
+    width: 16.375em;
     height: 85px;
     text-decoration: none;
+    text-align: center;
     background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
 }
+
 .cajaContactos a{
     font-size: 20px;
     padding: 10px 7px 10px 10px;
@@ -124,9 +126,14 @@ nav ul li:hover ul {
     position: absolute;
     width: 1.875em;
     height: 1.875em;
-    left: 6.875em;
-    bottom: 110px;
+    left: 9.875em;
+    bottom: 100px;
     border-radius: 20px;
+}
+
+.letra{
+    text-align: center;
+    font-size: 16px;
 }
 /*Termina Zona Menu*/
 
@@ -462,7 +469,7 @@ text-align: center;
 
 .buzosTitulo {
     position: absolute;
-    left: 5em;
+    left: 4.5em;
 }
 
 h2 {
@@ -483,8 +490,8 @@ h2 {
 
 .texto1 {
     position: absolute;
-    width: 9.375em;
-    left: 5em;
+    width: 13.375em;
+    left: 3em;
     top: 14.375em;
 }
 
@@ -919,7 +926,7 @@ h2 {
 .slide-contenedor {
     position: absolute;
     top: 0.3125em;
-    left: 12.5em;
+    left: 20.5em;
     margin: auto;
     width: 26.875em;
     height: 33.3125em;
@@ -942,7 +949,7 @@ h2 {
     height: 37.5em;
     top: 35.5em;
 }
-
+}
 @media only screen and (max-width: 768px) {
 
 /*Zona Menu*/
@@ -964,10 +971,10 @@ h2 {
     padding-left: 0;
 }
 
-.logoIg{
+.logoIg {
     position: absolute;
-    left: 6.875rem;
-    bottom: 13.8rem;
+    left: 8.00rem;
+    bottom: 26.7rem;
 }
 
 .cajaContactos {
@@ -984,7 +991,7 @@ h2 {
     position: absolute;
     top: 0em;
 }
-    
+
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
@@ -1050,13 +1057,12 @@ h2 {
     height: 25em;
     padding: 50px;
 }
-
 /*Termina Zona Segunda Página*/
 
 .buzosTitulo {
     position: absolute;
-    left: 4em;
-    width: 18.7em;
+    left: 10em;
+    width: 17.4em;
 }
 
 }
@@ -1084,14 +1090,15 @@ h2 {
 
 .logoIg{
     position: absolute;
-    left: 7.875rem;
-    top: 35.375rem;
+    left: 9.175rem;
+    top: 34.375rem;
 }
 
 .cajaContactos {
-    width: 11em;
-    height: 85px;
+    width: 11.100em;
+    height: 70px;
     text-decoration: none;
+    text-align: center;
     background-image: linear-gradient(to top, #30d0d067 0%, #33086762 100%);
 }
 /*Termina Zona Menu*/
@@ -1103,7 +1110,6 @@ h2 {
     top: 0em;
 }
 
-    
 .primeraCaja {
     position: absolute;
     background-color: #3232327a;
@@ -1539,4 +1545,4 @@ h2 {
     left: 5.625em;
     transition: all 1s;
 }
-}}
+}
